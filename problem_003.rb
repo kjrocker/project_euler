@@ -26,7 +26,7 @@ def prime_factors(n)
   return factors
 end
 
-class FibSumTest < Minitest::Test
+class PrimeFactorTest < Minitest::Test
   def test_prime_sieve
     short_primes = prime_sieve(10)
     assert_equal [2,3,5,7], short_primes
