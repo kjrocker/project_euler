@@ -14,7 +14,6 @@ class MyTest(unittest.TestCase):
         self.assertEqual(three_or_five_below(10), 23)
         self.assertEqual(three_or_five_below(1000), 233168)
 
-
 if __name__ == '__main__':
     unittest.main()
     #print three_or_five_below(1000)
