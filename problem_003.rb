@@ -38,9 +38,6 @@ class FibSumTest < Minitest::Test
   end
 end
 
-if MiniTest.run                                # The Run/Kill Switch
-  puts "Tests Passed!"
+if MiniTest.run
   puts prime_factors(600851475143).last
-else
-  puts "Tests Failed!"
 end

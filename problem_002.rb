@@ -30,9 +30,6 @@ class FibSumTest < Minitest::Test
   end
 end
 
-if MiniTest.run                                # The Run/Kill Switch
-  puts "Tests Passed!"
+if MiniTest.run
   puts even_sum(fib_until(4000000))
-else
-  puts "Tests Failed!"
 end
